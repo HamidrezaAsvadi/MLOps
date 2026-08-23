@@ -1,0 +1,18 @@
+
+    # Hyper parameters
+    RESAMPLE_RULE: str = "10S"
+    SEQ_LEN: int = 30
+    STEP: int = 1
+    BATCH: int = 256
+
+    # Thresholding
+    TAU = 0.137
+    TAU_SOURCE = "train_idle"   # "train_idle" or "global"
+    TAU_QUANTILE = 0.95
+
+    
+    # Smoothing
+    MIN_NORMAL_SEQ_RUN: int = 2
+
+    # Feature scaling (must match training)
+    STATE_FEATURE_SCALE: float = 0.3

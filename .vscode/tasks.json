@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "restart docker compose",
+            "type": "shell",
+            "command": "bash ../restart_edgex.sh",
+            "group": "test",
+            "presentation": {
+              "reveal": "always",
+              "panel": "new"
+            }
+          }
+    ]
+  }
